@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Бланк заповнення комунальних послуг </h1>
+    <form action="#">
+        
+        <fieldset>
+            <legend> Контакти </legend>
+            <label for="name"> <div class="text">  Ім`я </div> <span class="formone"> <input type=”text” id="name"> </span> </label> <br> <br>
+            <label for="sіurname"> <div class="text">  Прізвище </div> <span class="formone"> <input type=”text” id="surname"> </span> </label> <br> <br>
+            <label for="phonenumber"> <div class="text"> Телефон </div> <span class="formone"> <input type=”phon” id="phonenumber"> </span> </label> <br> <br>
+            <label for="email"> <div class="text"> Email </div> <span class="formone"> <input type=”email” id="email"> </span> </label> <br> <br>
+            <label for="date"> <div class="text"> Дата заповнення бланку </div> <span class="formone"> <input type="date" id="date"> </span> </label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Інформація показчику личильника </legend>
+            <label for="фввкуі"> <div class="text">Адреса </div> <span class="formone"> <input type=”number” min=”1” max=”120” step=”1”> </span> </label> <br> <br>
+            <label for="indicators"> <div class="text"> Показчики рострат </div>
+                <span class="formone">  <select name="indicators" id="">
+                <option value="1"> Електро енергия </option>
+                <option value="2"> Холодна та гаряча вода </option>
+                <option value="3"> Кварт плата </option>
+                <option value="4"> Інші показчики та КОМ услуги </option>
+            </select>   </span> 
+            </label> <br> <br>
+            <label for="wantMenu"> <div class="text">Впишіть сюди показчики ваших лічильників </div> <span class="formone"><textarea name="wantMenu" id="" cols="20" rows="6"></textarea> </span> </label>
+        </fieldset>
+
+        
+    </form>
+</body>
+</html>
